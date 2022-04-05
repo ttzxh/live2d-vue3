@@ -1,0 +1,39 @@
+{
+  "name": "live2d-vue3",
+  "version": "0.1.5",
+  "private": false,
+  "main": "index.js",
+  "keywords": [
+    "live2d",
+    "vue3",
+    "Vue3",
+    "VUE3",
+    "waifu"
+  ],
+  "description": "基于vue的简单强大的live2d模型",
+  "author": {
+    "name": "zxh"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib package/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/compiler-sfc": "^3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
